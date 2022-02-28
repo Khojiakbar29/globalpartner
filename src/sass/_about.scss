@@ -1,0 +1,12 @@
+.about {
+    &__title {
+        position: relative;
+        text-align: center;
+        @include before_circle;
+        &:before {
+            top: 9px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

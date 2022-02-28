@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 @import './variables';
+@import './mixins';
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -15,3 +16,4 @@
 @import './header';
 @import './title';
 @import './promo';
+@import './about';

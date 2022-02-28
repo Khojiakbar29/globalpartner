@@ -1,36 +1,10 @@
 .promo {
     min-height: 600px;
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    background: url('../img/main_bg.jpg') no-repeat center center/cover;
     &__header {
+        padding-top: 80px;
         width: 450px;
-        height: 300px;
-    }
-    &__imgs {
-        width: 460px;
-        height: 295px;
-        &-orange {
-            width: 450px;
-            height: 150px;
-            img {
-                width: 100%;
-            }
-        }
-        &-sweetpotato {
-            width: 600px;
-            height: 300px;
-            img {
-                width: 100%;
-            }
-        }
-    }
-    &__line {
-        width: 80px;
-        height: 60px;
-        margin: 0 auto;
-        margin-top: 200px;
+        height: 450px;
+        filter: drop-shadow( 4px 4px 4px $main-color);
     }
 }
