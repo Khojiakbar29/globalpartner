@@ -1,0 +1,168 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 930px;
+    }
+    .header {
+        &__info {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 65px;
+        }
+    }
+    .about {
+        &__subtitle {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 650px;
+    }
+    .header {
+        &__main {
+            &-menu {
+                &-link {
+                    &_item {
+                        margin-left: 45px;
+                    }
+                }
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 55px;
+        }
+    }
+    .about {
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__why {
+            &-title {
+                font-size: 20px;
+            }
+            &-descr {
+                font-size: 11px;
+                line-height: 17px
+            }
+        }
+        &__vision {
+            &-title {
+                font-size: 20px;
+            }
+            &-descr {
+                font-size: 11px;
+                line-height: 17px
+            }
+        }
+    }
+    .products {
+        &__content {
+            &_active {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        &__main {
+            justify-content: space-around;
+            &-menu {
+                display: none;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 45px;
+        }
+    }
+    .about {
+        &__title {
+            font-size: 28px;
+            &:before {
+                top: 30px;
+            }
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            flex-direction: column;
+        }
+        &__vision {
+            &-descr {
+                line-height: 12px;
+            }
+        }
+    }
+    .products {
+        &__title {
+            font-size: 28px;
+            &:before {
+                top: 30px;
+            }
+        }
+        &__tab {
+            width: 200px;
+            font-size: 15px;
+        }
+    }
+    .contacts {
+        &__descr {
+            font-size: 10px;
+        }
+        &__adress {
+            padding-top: 10px;
+            &-text {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+            padding-left: 10px;
+        }
+    }
+    .contacts {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__logo {
+            margin: 0 auto;
+        }
+        &__descr {
+            margin: 0 auto;
+        }
+        &__secondpart {
+            margin: 0 auto;
+        }
+        &__footer {
+            padding-top: 5px;
+            font-size: 10px;
+        }
+        &__designed {
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+    }
+}

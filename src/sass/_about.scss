@@ -1,12 +1,44 @@
 .about {
-    &__title {
-        position: relative;
+    background: url('../img/second_bg.png') no-repeat bottom center;    
+    &__subtitle {
         text-align: center;
-        @include before_circle;
-        &:before {
-            top: 9px;
-            left: 50%;
-            transform: translateX(-50%);
+        margin: 35px 10px;
+        font-size: 30px;
+        color: #191D28;
+    }
+    &__divider {
+        span {
+            display: block;
+            margin: 0 auto 50px;
+            width: 200px;
+            height: 4px;
+            background: $main-color;
+            filter: drop-shadow( 0px 1px 1px black  );
+        }
+    }
+    &__descr {
+        display: flex;
+    }
+    &__vision {
+        padding: 10px 12px;
+        margin: 0 10px 20px;
+        border: 2px dashed #191D28;
+        border-radius: 8%;
+        flex: 1 1 50%;
+        &-descr {
+            color: #191D28;
+            filter: drop-shadow( 0px 1px 1px $main-color  );
+        }
+    }
+    &__why {
+        padding: 10px 12px;
+        margin: 0 10px 20px;
+        border: 2px dashed #191D28;
+        border-radius: 8%;
+        flex: 1 1 50%;
+        &-descr {
+            color: #191D28;
+            filter: drop-shadow( 0px 1px 1px $main-color  );
         }
     }
 }
